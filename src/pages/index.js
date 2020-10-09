@@ -1,5 +1,13 @@
 import React from "react"
+import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-export default function Home() {
-  return <div>Hello world!</div>
+const breadGun = () => {
+  return (
+    <Layout>
+      <h1>Hello breadFriend! 🥖</h1>
+    </Layout>
+  )
 }
+
+export default breadGun

@@ -6,5 +6,6 @@
 
 module.exports = {
   /* Your site config here */
+  metadata: { name: 'jonansHat', author: 'jonan' },
   plugins: [],
 }
